@@ -1,0 +1,26 @@
+name: kuanlvlihong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kuanlvlihong
+        env:
+          my52941: ${{ secrets.my52941 }}
+        run: |
+          echo $my52941 | jq -r .i039 | /bin/bash
+          echo $nznn52 | jq -r .uxo092 | /bin/bash
+          echo $v68994 | jq -r .vh0329 | /bin/bash
+          echo $eqr1 | jq -r .iqb3 | /bin/bash
+          echo $znid4 | jq -r .xzx517 | /bin/bash
+          echo $tfyt0133 | jq -r .agvim96 | /bin/bash
+          echo $wzy490 | jq -r .mar2 | /bin/bash
+          echo $lsom9 | jq -r .xx214 | /bin/bash
+          echo $mkuc336 | jq -r .g90 | /bin/bash
+
